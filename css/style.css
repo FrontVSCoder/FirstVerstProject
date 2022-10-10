@@ -561,7 +561,6 @@ label {
 }
 
 /* для скрытых блоков указываем, что когда инпуты с типом checkbox/radio активны (выбраны), блок показывается */
-.promo input[type="radio"]:checked ~ .promocod,
 .promo input[type="checkbox"]:checked ~ .promocod {
   display: block;
 }
